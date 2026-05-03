@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8F3">
+
+    <!-- Background gradient style -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Top Bar -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end">
+
+            <!-- Indonesia Flag -->
+            <ImageView
+                android:id="@+id/indonesiaFlag"
+                android:layout_width="36dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_indonesia_flag"/>
+        </LinearLayout>
+
+        <!-- Main Content -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <!-- App Logo -->
+
+            <!-- Welcome -->
+            <ImageView
+                android:id="@+id/appLogo"
+                android:layout_width="242dp"
+                android:layout_height="140dp"
+                android:layout_marginBottom="24dp"
+                android:src="@drawable/logo3" />
+
+            <TextView
+                android:id="@+id/welcomeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Welcome to CookAI 🍳"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                android:textColor="#222222"
+                android:gravity="center"/>
+
+            <!-- Subtitle -->
+            <TextView
+                android:id="@+id/descriptionText"
+                android:layout_width="378dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingStart="16dp"
+                android:paddingTop="12dp"
+                android:paddingEnd="16dp"
+                android:text="Temukan resep terbaik, AI cooking assistant, dan inspirasi masakan Nusantara."
+                android:textColor="#666666"
+                android:textSize="16sp" />
+
+            <!-- Location -->
+            <TextView
+                android:id="@+id/locationText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="📍 Mendeteksi lokasi..."
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#FF7043"
+                android:layout_marginTop="24dp"/>
+
+        </LinearLayout>
+
+        <!-- Bottom Branding -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ProgressBar
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:indeterminateTint="#FF7043"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Loading delicious experience..."
+                android:textSize="14sp"
+                android:textColor="#999999"
+                android:layout_marginTop="12dp"
+                android:paddingBottom="20dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1011126589371",
+    "project_id": "cookai-be201",
+    "storage_bucket": "cookai-be201.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1011126589371:android:0d4998e84a064fbf48969e",
+        "android_client_info": {
+          "package_name": "com.example.cookai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1011126589371-s36091orn8mnirl4njbi6jrtlq44h62v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cookai",
+            "certificate_hash": "f0e463a3862a478896f61609e7386a7398c60d2a"
+          }
+        },
+        {
+          "client_id": "1011126589371-7ngah51885h980kkgh1blkllfmgdji11.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYCiXROyyVNWdQLbXMyZx-GHdzewHJ8vY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1011126589371-7ngah51885h980kkgh1blkllfmgdji11.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

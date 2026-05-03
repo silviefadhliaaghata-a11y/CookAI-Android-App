@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CookAI</string>
+    <string name="default_web_client_id">123456789-abcdefg.apps.googleusercontent.com</string>
+    <string-array name="recipe_categories">
+        <item>Sarapan</item>
+        <item>Makan Siang</item>
+        <item>Makan Malam</item>
+        <item>Dessert</item>
+        <item>Diet</item>
+        <item>Minuman</item>
+    </string-array>
+</resources>
